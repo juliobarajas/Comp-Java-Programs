@@ -28,7 +28,7 @@ public class ArrayMethodsPractice{
 		Integer.MIN_VALUE = x[0];
 		Integer.MAX_VALUE = x[0];
 
-		// Loop replaces largest and smallest values everytime they are found
+		// Loop replaces largest and smallest values every time they are found
 		for (int i = 0; i < x.length; i++) {
 			if (x[i] > MAX_VALUE) {
 				MAX_VALUE = x[i];

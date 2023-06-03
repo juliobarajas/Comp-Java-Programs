@@ -41,7 +41,7 @@ public class TuitionCalculator {
 			finalTotal = totalHours + extraHours;
 	 	}
 
-	 	// If science / enginnering hours exist this will execute
+	 	// If science / engineering hours exist this will execute
 		 if (sciEngineeringHours > 0) {
 		 	System.out.print("($25 per eng./sci. credit hour) * (" + sciEngineeringHours); 
 		 	System.out.print(" credit hour(s))");

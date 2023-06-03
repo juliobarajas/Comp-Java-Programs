@@ -60,7 +60,7 @@ public class MasterCardGenerator {
 			digitFourteen = rng.nextInt(10);
 			digitFifteen = rng.nextInt(10);
 
-			// Seperate the first six digits generated into seperate variables
+			// Separate the first six digits generated into separate variables
 			digitSix = firstDigits % 10;
 			modifiedDigits = firstDigits / 10;
 			digitFive = modifiedDigits % 10;
@@ -83,7 +83,7 @@ public class MasterCardGenerator {
 			digitThree = digitThree * 2;
 			digitOne = digitOne * 2;
 
-			// Seperate If statements to subtract 9 from doubled values greater than 9
+			// Separate If statements to subtract 9 from doubled values greater than 9
 			if (digitOne > 9) {
 				digitOne = digitOne - 9;
 			}
